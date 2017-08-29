@@ -17,9 +17,7 @@ init location =
         ( initialModel currentRoute, fetchPlayers )
 
 subscriptions : Model -> Sub Msg
-subscriptions model =
-    Sub.none
-
+subscriptions model =  Sub.none
 
 main : Program Never Model Msg
 main =
